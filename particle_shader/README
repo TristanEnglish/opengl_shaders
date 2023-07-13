@@ -1,0 +1,20 @@
+hw08: Particle Systems (rain)
+
+Tristan English
+CSCI4239 Spring 2023
+
+For this project I looked at creating rain using both big and small particles. The first method uses simple,
+white small particles moving quick, which looks okay, but real raindrops don't all have the same uniform shape and size. The second method uses large particles with a clustered raindrops texture, giving the illusion of small variations in the water droplets.
+
+While this big particle approach is an easy way to fake some pretty impressive detail, it would break down if we wanted to implement collision detection. If we wanted the water droplets to splash when they hit a surface for example, we would need to control individual droplets, something we can't do if the texture contains multiple droplets.
+
+
+Approximate time spent: 5 hours
+
+Key bindings
+  m/M        Toggle between particle shaders
+  a          Toggle axes
+  arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
